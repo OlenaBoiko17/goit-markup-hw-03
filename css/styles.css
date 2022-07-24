@@ -89,8 +89,8 @@ body {
 
 .header {
     padding-top: 24px;
-    padding-bottom: 94pxpx;
-    
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;;
 }
 
 .header-logo-link {
@@ -100,8 +100,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
+    
 }
 
 .header-logo-accent  {
@@ -183,7 +182,8 @@ body {
 
 .hero {
     background-color: rgb(25, 49, 49);
-    padding: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 }
 
@@ -235,6 +235,7 @@ body {
 
 .menu {
     padding-top: 94px;
+    padding-bottom: 0;
        
 
 }
@@ -484,20 +485,22 @@ body {
     flex-wrap: wrap;
     gap: 30px;
     min-width: 1200px;
-    padding-bottom: 94px;
+    
   
 }
 
 .button-benefits-item {
     
+   
+}
+
+.button-benefits-content {
+    padding: 20px 24px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-top: none;
 }
 
-.button-benefits-content {
-    padding: 20px 24px;
-}
 
 .button-benefits-subtitle {
     font-weight: 700;
